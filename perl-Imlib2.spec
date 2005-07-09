@@ -26,7 +26,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Perl extention to Imlib2. Imlib2 can be very usefull in CGI scripts
+Perl extention to Imlib2. Imlib2 can be very useful in CGI scripts
 and, as examples shows, with GTK. Imlib2::Object permits working
 directly on files.
 
