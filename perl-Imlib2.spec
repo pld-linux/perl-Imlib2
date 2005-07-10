@@ -15,7 +15,7 @@ Release:	0.%{_snap}.0.1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 #Source0:	http://dl.sourceforge.net/enlightenment/%{_pkgname}-%{version}.tar.gz
-Source0:	ftp://ftp.sparky.homelinux.org/snaps/enli/misc/%{_pkgname}-%{_snap}.tar.gz
+Source0:	http://sparky.homelinux.org/snaps/enli/misc/%{_pkgname}-%{_snap}.tar.gz
 # Source0-md5:	286d85a0648e95062b2e8d6d11be1fa5
 URL:		http://enlightenment.org/
 BuildRequires:	freetype1-devel
