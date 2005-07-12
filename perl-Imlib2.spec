@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Imlib2
 %define		pnam	Object
-Summary:	Perl extention to Imlib2
+Summary:	Perl extension to Imlib2
+Summary(pl):	Rozszerzenie Perla do Imlib2
 Name:		perl-Imlib2
 %define	_pkgname	Imlib2_Perl
 Version:	0.02
@@ -26,9 +27,14 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Perl extention to Imlib2. Imlib2 can be very useful in CGI scripts
+Perl extension to Imlib2. Imlib2 can be very useful in CGI scripts
 and, as examples shows, with GTK. Imlib2::Object permits working
 directly on files.
+
+%description -l pl
+Rozszerzenie Perla do Imlib2. Imlib2 mo¿e byæ bardzo przydatna w
+skryptach CGI i, jak pokazuj± przyk³ady, w GTK. Imlib2::Object
+umo¿liwia pracê bezpo¶rednio na plikach.
 
 %prep
 %setup -q -n %{_pkgname}
