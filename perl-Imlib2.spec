@@ -6,7 +6,7 @@
 %define		pdir	Imlib2
 %define		pnam	Object
 Summary:	Perl extension to Imlib2
-Summary(pl):	Rozszerzenie Perla do Imlib2
+Summary(pl.UTF-8):   Rozszerzenie Perla do Imlib2
 Name:		perl-Imlib2
 %define	_pkgname	Imlib2_Perl
 Version:	0.02
@@ -31,10 +31,10 @@ Perl extension to Imlib2. Imlib2 can be very useful in CGI scripts
 and, as examples shows, with GTK. Imlib2::Object permits working
 directly on files.
 
-%description -l pl
-Rozszerzenie Perla do Imlib2. Imlib2 mo¿e byæ bardzo przydatna w
-skryptach CGI i, jak pokazuj± przyk³ady, w GTK. Imlib2::Object
-umo¿liwia pracê bezpo¶rednio na plikach.
+%description -l pl.UTF-8
+Rozszerzenie Perla do Imlib2. Imlib2 moÅ¼e byÄ‡ bardzo przydatna w
+skryptach CGI i, jak pokazujÄ… przykÅ‚ady, w GTK. Imlib2::Object
+umoÅ¼liwia pracÄ™ bezpoÅ›rednio na plikach.
 
 %prep
 %setup -q -n %{_pkgname}
