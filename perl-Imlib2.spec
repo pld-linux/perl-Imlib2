@@ -6,7 +6,7 @@
 %define		pdir	Imlib2
 %define		pnam	Object
 Summary:	Perl extension to Imlib2
-Summary(pl.UTF-8):   Rozszerzenie Perla do Imlib2
+Summary(pl.UTF-8):	Rozszerzenie Perla do Imlib2
 Name:		perl-Imlib2
 %define	_pkgname	Imlib2_Perl
 Version:	0.02
