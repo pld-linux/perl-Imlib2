@@ -28,12 +28,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Perl extension to Imlib2. Imlib2 can be very useful in CGI scripts
-and, as examples shows, with GTK. Imlib2::Object permits working
+and, as examples shows, with GTK+. Imlib2::Object permits working
 directly on files.
 
 %description -l pl.UTF-8
 Rozszerzenie Perla do Imlib2. Imlib2 może być bardzo przydatna w
-skryptach CGI i, jak pokazują przykłady, w GTK. Imlib2::Object
+skryptach CGI i, jak pokazują przykłady, w GTK+. Imlib2::Object
 umożliwia pracę bezpośrednio na plikach.
 
 %prep
