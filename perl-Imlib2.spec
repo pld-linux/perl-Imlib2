@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Imlib2.pm
 %{perl_vendorarch}/Imlib2
 %dir %{perl_vendorarch}/auto/Imlib2
-%{perl_vendorarch}/auto/Imlib2/Imlib2.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Imlib2/Imlib2.so
 %{perl_vendorarch}/auto/Imlib2/autosplit.ix
 %{_mandir}/man3/*
