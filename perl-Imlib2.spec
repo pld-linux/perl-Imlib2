@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Imlib2
 %define		pnam	Object
 Summary:	Perl extension to Imlib2
